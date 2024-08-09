@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function hey() {
+        alert("Hello");
+      }
+    </script>
+
+    <title>New movie add</title>
+
+    <style>
+      .container {
+        width: 100%;
+        height: 250px;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("https://movie-phinf.pstatic.net/20210715_95/1626338192428gTnJl_JPEG/movie_image.jpg");
+        background-position: center;
+        background-size: cover;
+
+        color: white;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container > button {
+        width: 200px;
+        height: 50px;
+
+        background-color: transparent;
+        color: white;
+
+        border-radius: 50px;
+        border: 1px solid white;
+
+        margin-top: 20px;
+      }
+
+      .mycards {
+        margin: 10px;
+        height: 20%;
+        width: 60%;
+        margin-left: 370px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>My favourite movies</h1>
+      <button onclick="hey()" class="btn btn-outline-secondary">
+        Add a new movie
+      </button>
+    </div>
+
+    <div class="mycards">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ujjain PVR</h5>
+              <p class="card-text">
+                Earth's mightiest heroes must come together and learn to fight
+                as a team if they are going to stop the mischievous Loki and his
+                alien army from enslaving humanity.
+              </p>
+              <p>⭐⭐⭐</p>
+              <a href="#" class="btn btn-primary">Book Tickets</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://lumiere-a.akamaihd.net/v1/images/p_deadpool_wolverine_snuggle_gen_v2_c251bde1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ujjain PVR</h5>
+              <p class="card-text">
+                Earth's mightiest heroes must come together and learn to fight
+                as a team if they are going to stop the mischievous Loki and his
+                alien army from enslaving humanity.
+              </p>
+              <p>⭐⭐⭐</p>
+              <a href="#" class="btn btn-primary">Book Tickets</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://resizing.flixster.com/avNwnYJQYzX8fK4ZJoxUkmymsmE=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYTA5MmVjM2QtZmE3Ny00NTY2LWFhZTQtOTIxZTU1ZjBjYjEzLmpwZw=="
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ujjain PVR</h5>
+              <p class="card-text">
+                Earth's mightiest heroes must come together and learn to fight
+                as a team if they are going to stop the mischievous Loki and his
+                alien army from enslaving humanity.
+              </p>
+              <p>⭐⭐⭐</p>
+              <a href="#" class="btn btn-primary">Book Tickets</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ZMFDCeFWBVWDN9b3mIQ_ZpqHfv39bgIPHw&s"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ujjain PVR</h5>
+              <p class="card-text">
+                Earth's mightiest heroes must come together and learn to fight
+                as a team if they are going to stop the mischievous Loki and his
+                alien army from enslaving humanity.
+              </p>
+              <p>⭐⭐⭐</p>
+              <a href="#" class="btn btn-primary">Book Tickets</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
